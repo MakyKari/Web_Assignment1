@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+.main_body{
+    background-color: black;
+}
+
+.upper_background_image{
+    position: relative;
+    left: -10px;
+    top: -10px;
+}
+
+.upper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image{
+    width: 60%;
+}
+
+.font{
+    color: rgb(255, 255, 255);
+    font-style: italic;
+}
+
+.name_of_the_restaurant{
+    position: relative;
+    width: 30%;
+    font-size: 36px;
+}
+
+.menu_title{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.menu_buttons {
+    color: #ecf0f1;
+    font-size: 34px;
+    background-color: #e67e22;
+    border: 1px solid #f39c12;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 6px 0px #d35400;
+    transition: all .1s;
+   }
+   
+.menu_buttons:active {
+    box-shadow: 0px 2px 0px #d35400;
+    position: relative;
+    top: 2px;
+}
+
+.buttons{
+    right: 17px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10%;
+}
+
+.breakfast_body{
+    background-image: url(../static/coffee.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title{
+    position: relative;
+    left: 360px;
+    width: 70%;
+    font-style:italic;
+}
+
+.line{
+    position: relative;
+    left:-280px;
+    height: 2px;
+    width: 50%;
+}
+
+.table_item{
+    margin: 40px 0;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.dinner_body{
+    background-position:100% 5%;
+    background-image: url(../static/Spaghetti\ Bolognese.jpg);
+    background-repeat: no-repeat;
+}
+
+.lunch_body{
+    background-image: url(../static/b37b61b19b1750e89eff62ad298b146c.jpg);
+    background-repeat: no-repeat;
+    background-position:100% 5%;
+}
+
+.address_block{
+    display: flex;
+    justify-content: center;
+}
+
+table, th, td {
+    color: white;
+    border: 1px solid white;
+}
+
+.feedback_title{
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+}
+
+.text_image_pair{
+    display: flex;
+    gap: 20%;
+    align-items: center;
+    font-size: 25px;
+    margin: 5% 10% 5% 10%;
+    
+}
+
+.feedback_image{
+    width: 27%;
+    height: auto;
+    border-radius: 9%;
+    border: 2px green solid;
+}
